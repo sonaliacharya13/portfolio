@@ -1,0 +1,143 @@
+.education-title{
+    font-size:3rem;
+    font-weight:700;
+    text-align:center;
+    color:#ffffff;
+    margin-bottom:12px;
+    letter-spacing:1px;
+}
+
+.education-subtitle{
+    text-align:center;
+    color:#a1a1aa;
+    font-size:1.05rem;
+    margin-bottom:60px;
+    position:relative;
+}
+
+.education-subtitle::after{
+    content:"";
+    display:block;
+    width:70px;
+    height:4px;
+    background:#8b5cf6;
+    border-radius:20px;
+    margin:18px auto 0;
+}
+
+.education-title{
+    transition:.3s;
+}
+
+.education-title:hover{
+    color:#8b5cf6;
+}
+
+.education {
+    background: #0f0f1b;
+}
+
+.education-card {
+    margin-top: 50px;
+    background: #151528;
+    border: 1px solid rgba(139, 92, 246, 0.25);
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    transition: 0.35s ease;
+}
+
+.education-card:hover {
+    transform: translateY(-8px);
+    border-color: #8b5cf6;
+    box-shadow: 0 18px 40px rgba(139, 92, 246, 0.25);
+}
+
+.education-icon {
+    width: 90px;
+    height: 90px;
+    background: rgba(139, 92, 246, 0.12);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.education-icon svg {
+    font-size: 40px;
+    color: #8b5cf6;
+}
+
+.education-content h3 {
+    color: white;
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+}
+
+.education-content h4 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #c4b5fd;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.education-content h4 svg {
+    color: #8b5cf6;
+}
+
+.education-year {
+    display: inline-block;
+    background: rgba(139, 92, 246, 0.15);
+    color: #c4b5fd;
+    border: 1px solid rgba(139, 92, 246, 0.35);
+    padding: 8px 16px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.education-content p {
+    color: #cfcfcf;
+    line-height: 1.9;
+    font-size: 1rem;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    .education-card {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .education-content h4 {
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .education-content h3 {
+        font-size: 1.5rem;
+    }
+
+    .education-icon {
+        width: 75px;
+        height: 75px;
+    }
+
+    .education-icon svg {
+        font-size: 34px;
+    }
+
+}

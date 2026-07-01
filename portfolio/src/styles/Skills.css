@@ -1,0 +1,180 @@
+.skills-title{
+    font-size:3rem;
+    font-weight:700;
+    text-align:center;
+    color:#ffffff;
+    margin-bottom:12px;
+    letter-spacing:1px;
+}
+
+.skills-subtitle{
+    text-align:center;
+    color:#a1a1aa;
+    font-size:1.05rem;
+    margin-bottom:60px;
+    position:relative;
+}
+
+.skills-subtitle::after{
+    content:"";
+    display:block;
+    width:70px;
+    height:4px;
+    background:#8b5cf6;
+    border-radius:20px;
+    margin:18px auto 0;
+}
+
+.skills-title:hover{
+    color:#8b5cf6;
+    transition:.3s;
+}
+
+.skills {
+  padding: 90px 0;
+  background: #0b0b12;
+}
+
+.skills .title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.skills .subtitle {
+  text-align: center;
+  color: #b5b5b5;
+  margin-bottom: 50px;
+  font-size: 1rem;
+}
+
+/* =========================
+   GRID
+========================= */
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+/* Coursework spans full width */
+
+.coursework-card {
+  grid-column: 1 / -1;
+}
+
+/* =========================
+   CARD
+========================= */
+
+.skill-card {
+  background: #14141f;
+  border: 2px solid rgba(139, 92, 246, 0.35);
+  border-radius: 18px;
+  padding: 28px;
+  transition: 0.35s;
+}
+
+.skill-card:hover {
+  transform: translateY(-6px);
+  border-color: #8b5cf6;
+  box-shadow: 0 0 25px rgba(139, 92, 246, 0.25);
+}
+
+/* =========================
+   TITLE
+========================= */
+
+.skill-card h3 {
+  color: #fff;
+  font-size: 1.45rem;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.skill-card h3::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 4px;
+  margin-top: 8px;
+  border-radius: 10px;
+  background: #8b5cf6;
+}
+
+/* =========================
+   SKILLS
+========================= */
+
+.skill-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 12px 18px;
+
+  background: #1d1d2b;
+
+  border: 1px solid rgba(255,255,255,.12);
+
+  border-radius: 12px;
+
+  color: white;
+
+  transition: .3s;
+}
+
+.skill-item:hover {
+  background: #8b5cf6;
+  border-color: #8b5cf6;
+  transform: translateY(-4px);
+}
+
+.skill-item svg {
+  font-size: 22px;
+}
+
+.skill-item span {
+  font-size: 0.98rem;
+  font-weight: 500;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width:900px){
+
+.skills-grid{
+grid-template-columns:1fr;
+}
+
+.coursework-card{
+grid-column:auto;
+}
+
+}
+
+@media (max-width:600px){
+
+.skill-item{
+width:100%;
+}
+
+.skills{
+padding:70px 20px;
+}
+
+.skills .title{
+font-size:2rem;
+}
+
+}
