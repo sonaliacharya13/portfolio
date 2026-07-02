@@ -130,15 +130,6 @@ function Projects() {
                 GitHub
               </a>
 
-              <a
-                href="https://portfolio-8t5q.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FaExternalLinkAlt />
-                Live Demo
-              </a>
-
             </div>
 
           </div>
