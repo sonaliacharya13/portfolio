@@ -1,9 +1,22 @@
+import { useState } from "react";
 import "../styles/Navbar.css";
-import { FaCode, FaDownload } from "react-icons/fa";
+import {
+  FaCode,
+  FaDownload,
+  FaBars,
+  FaTimes,
+} from "react-icons/fa";
 
 function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <header className="navbar">
+
       <div className="logo">
         <FaCode className="logo-icon" />
 
@@ -13,15 +26,48 @@ function Navbar() {
         </div>
       </div>
 
-      <nav>
+      <nav className={menuOpen ? "nav active" : "nav"}>
         <ul className="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#certifications">Certifications</a></li>
-          <li><a href="#contact">Contact</a></li>
+
+          <li>
+            <a href="#home" onClick={closeMenu}>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" onClick={closeMenu}>About</a>
+          </li>
+
+          <li>
+            <a href="#skills" onClick={closeMenu}>Skills</a>
+          </li>
+
+          <li>
+            <a href="#projects" onClick={closeMenu}>Projects</a>
+          </li>
+
+          <li>
+            <a href="#education" onClick={closeMenu}>Education</a>
+          </li>
+
+          <li>
+            <a href="#certifications" onClick={closeMenu}>Certifications</a>
+          </li>
+
+          <li>
+            <a href="#contact" onClick={closeMenu}>Contact</a>
+          </li>
+
+          <li className="mobile-resume">
+            <a
+              href="/resume.pdf"
+              download="Sonali_Acharya_Resume.pdf"
+              onClick={closeMenu}
+            >
+              <FaDownload />
+              Resume
+            </a>
+          </li>
+
         </ul>
       </nav>
 
@@ -33,6 +79,14 @@ function Navbar() {
         <FaDownload />
         Resume
       </a>
+
+      <button
+        className="menu-btn"
+        onClick={() => setMenuOpen(!menuOpen)}
+      >
+        {menuOpen ? <FaTimes /> : <FaBars />}
+      </button>
+
     </header>
   );
 }
