@@ -122,7 +122,7 @@ function Projects() {
             <div className="project-links">
 
               <a
-                href="https://github.com/sonaliacharya13"
+                href="https://github.com/sonaliacharya13/portfolio.git"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -131,7 +131,9 @@ function Projects() {
               </a>
 
               <a
-                href="#home"
+                href="https://portfolio-j3ps.vercel.app"
+                target="_blank"
+                rel="noreferrer"
               >
                 <FaExternalLinkAlt />
                 Live Demo
