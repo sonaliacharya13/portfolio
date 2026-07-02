@@ -131,7 +131,7 @@ function Projects() {
               </a>
 
               <a
-                href="https://portfolio-j3ps.vercel.app"
+                href="https://portfolio-8t5q.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
