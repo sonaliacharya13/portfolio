@@ -30,7 +30,7 @@ function Education() {
             </h4>
 
             <span className="education-year">
-              2023 – 2026
+              2024 – 2027
             </span>
 
             <p>
