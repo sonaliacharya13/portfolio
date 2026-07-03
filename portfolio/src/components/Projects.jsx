@@ -42,6 +42,7 @@ function Projects() {
             <div className="project-links">
 
               <a
+              className="github-btn"
                 href="https://github.com/sonaliacharya13/BankingSystem.git"
                 target="_blank"
                 rel="noreferrer"

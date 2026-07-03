@@ -101,11 +101,6 @@
     font-weight: 500;
 }
 
-.project-links {
-    display: flex;
-    gap: 15px;
-}
-
 .project-links a {
     flex: 1;
     display: flex;
@@ -116,28 +111,30 @@
     border-radius: 10px;
     text-decoration: none;
     font-weight: 600;
-    transition: .3s;
 }
 
 .project-links a:first-child {
     background: #8b5cf6;
-    color: white;
+    color: #ffffff;
 }
 
-.project-links a:first-child:hover {
-    background: #7440e8;
+.project-links a:first-child svg {
+    color: #ffffff;
 }
 
-.project-links a:last-child {
+.github-btn {
     border: 2px solid #8b5cf6;
     color: #8b5cf6;
 }
 
-.project-links a:last-child:hover {
+.github-btn:hover {
     background: #8b5cf6;
-    color: white;
+    color: #fff;
 }
 
+.project-links a:last-child:hover svg {
+    color: #ffffff;
+}
 @media (max-width:768px){
 
     .projects-grid{

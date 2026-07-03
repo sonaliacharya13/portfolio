@@ -59,7 +59,7 @@ function Navbar() {
 
           <li className="mobile-resume">
             <a
-              href="/resume.pdf"
+              href="/Sonali_Acharya_resume.pdf"
               download="Sonali_Acharya_Resume.pdf"
               onClick={closeMenu}
             >
@@ -72,7 +72,7 @@ function Navbar() {
       </nav>
 
       <a
-        href="/resume.pdf"
+        href="/Sonali_Acharya_resume.pdf"
         download="Sonali_Acharya_Resume.pdf"
         className="resume-btn"
       >

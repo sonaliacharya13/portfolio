@@ -69,7 +69,7 @@ It’s definitely a journey, but I take it step by step. I try to learn somethin
               </div>
 
               <a
-                href="/resume.pdf"
+                href="/Sonali_Acharya_resume.pdf"
                 download="Sonali_Acharya_Resume.pdf"
                 className="about-btn"
               >

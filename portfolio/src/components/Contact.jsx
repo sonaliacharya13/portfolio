@@ -54,7 +54,7 @@ function Contact() {
           {/* GitHub */}
 
           <a
-            href="https://github.com/sonaliacharya13"
+            href="https://github.com/sonaliacharya13/sonaliacharya13.git"
             target="_blank"
             rel="noreferrer"
             className="contact-card"
@@ -70,7 +70,7 @@ function Contact() {
           {/* Resume */}
 
           <a
-            href="/resume.pdf"
+            href="/Sonali_Acharya_resume.pdf"
             download
             className="contact-card"
           >

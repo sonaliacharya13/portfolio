@@ -30,6 +30,12 @@
     margin:18px auto 0;
 }
 
+.certificate-link{
+    text-decoration:none;
+    color:inherit;
+    display:block;
+}
+
 .certifications {
     background: #0b0b16;
 }
