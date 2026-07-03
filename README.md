@@ -43,7 +43,3 @@ Deployed on Vercel.
 ## Author
 
 Sonali Acharya
-
-## License
-
-MIT
