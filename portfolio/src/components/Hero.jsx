@@ -25,7 +25,11 @@ function Hero() {
         <div className="hero-buttons">
 
           <a href="#projects" className="primary-btn">
-            View Projects
+              View Projects
+          </a>
+
+          <a href="#articles" className="primary-btn">
+              Articles
           </a>
 
         </div>
