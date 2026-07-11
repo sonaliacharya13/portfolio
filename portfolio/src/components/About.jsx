@@ -21,19 +21,15 @@ function About() {
             <h3>Who am I?</h3>
 
             <p>
-              I'm <strong>Sonali Acharya</strong>, a 3rd-year BCA student. Right now, I'm focused on learning how to build modern web apps, mostly using Java, Spring Boot, and React.
-
-For me, coding isn't just about making things work—I love the challenge of solving a tough programming problem and figuring out how to write clean, neat code that doesn't break. </p>
+              I'm <strong>Sonali Acharya</strong>, a 3rd-year BCA student. Right now, I'm focused on learning backend development, mainly using Java, Spring Boot, Spring Security, Hibernate, and MySQL. For me, coding isn't just about making things work—I enjoy solving backend problems and writing clean, organized, and maintainable code. </p>
             <p>
-              My ultimate goal is to become a solid Java Full Stack Developer and work on real, impactful software projects.
-
-It’s definitely a journey, but I take it step by step. I try to learn something brand new every single day, and I'm consistently practicing <strong>Data Structures and Algorithms (DSA)</strong> to sharpen my problem-solving skills.
+              My goal is to become a strong Backend Developer and work on real-world software projects that are secure, reliable, and scalable. I take the learning process step by step and try to improve my skills every day.
             </p>
 
             <p>
-              I enjoy solving programming problems, learning new technologies,
-              and creating responsive applications with clean and maintainable
-              code.
+              I'm also consistently practicing Data Structures and Algorithms (DSA) to strengthen my problem-solving ability and improve my understanding of programming concepts.
+
+I enjoy building REST APIs, working with databases, learning new backend technologies, and developing applications with clean and maintainable code.
             </p>
 
           </div>
@@ -56,7 +52,7 @@ It’s definitely a journey, but I take it step by step. I try to learn somethin
                 <FaLaptopCode />
                 <div>
                   <h4>Specialization</h4>
-                  <p>Java Full Stack Development</p>
+                  <p>Backend Development</p>
                 </div>
               </div>
 

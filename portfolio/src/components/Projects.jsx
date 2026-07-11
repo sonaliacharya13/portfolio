@@ -22,7 +22,7 @@ function Projects() {
               01
             </div>
 
-            <h3>Java Banking System</h3>
+            <h3>Banking System</h3>
 
             <p>
               Console-based banking application that allows users to
@@ -63,7 +63,7 @@ function Projects() {
               02
             </div>
 
-            <h3>Student Placement Management API</h3>
+            <h3>Student Placement Management System</h3>
 
             <p>
               Backend REST API built with Spring Boot to manage

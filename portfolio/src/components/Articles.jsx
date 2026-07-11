@@ -20,7 +20,7 @@ function Articles() {
               <FaPenNib />
             </div>
 
-            <h3>My Java Backend Learning Journey</h3>
+            <h3>My Backend Learning Journey</h3>
 
             <p>
               In this article, I share how I started learning Java backend

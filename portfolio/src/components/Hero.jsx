@@ -16,10 +16,10 @@ function Hero() {
           Sonali <span>Acharya</span>
         </h1>
 
-        <h2>Java Full Stack Developer</h2>
+        <h2>Backend Developer</h2>
 
         <p>
-          Enjoy solving coding problems, fixing bugs, and building simple web applications. Always learning new technologies and improving skills with every project. Working towards becoming a Java Full Stack Developer.
+          Enjoy solving coding problems, fixing bugs, and building simple web applications. Always learning new technologies and improving skills with every project. Working towards becoming a Backend Developer.
         </p>
 
         <div className="hero-buttons">
